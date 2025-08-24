@@ -98,6 +98,6 @@ app.listen(4000, () => {
     console.error("Failed to start server:", err);
 });
 
-module.exports = app
+module.exports = app;
 
 
