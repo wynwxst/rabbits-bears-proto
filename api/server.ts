@@ -64,7 +64,7 @@ app.get("/save", (req, res) => {
     if (!user.isBears) {
       return res.status(403).send("Access denied. Only Bears can save rabbits (They never will).");
     }
-    for (let rabbit in rabbits){
+    for (let rabbit of rabbits){
         rabbit.safe = true;
     }
     res.type("text").send(`                      /|      __
