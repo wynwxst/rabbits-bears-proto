@@ -92,11 +92,11 @@ console.log("(\_._/)  Welcome to Rabbit Farm!");
 console.log("( o.o )  Can you rescue them from the evil bears?");
 console.log(" > ^ < ");
 
-app.listen(4000, () => {
+/*app.listen(4000, () => {
   console.log("🐇 Rabbit farm running on http://localhost:4000");
 }).on("error", err => {
     console.error("Failed to start server:", err);
-});
+});*/
 
 module.exports = app;
 
